@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+}
+
+.outer-box {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  /* height: 44px; */
+}
+
+.main-box {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  /* padding: 20px; */
+  justify-content: space-between;
+}
+
+.top-bar i {
+  margin: 0 8px 0 0;
+  color: #707070;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.top-bar-right a {
+  color: #707070;
+  text-decoration: none;
+  letter-spacing:1px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  /* gap: 20px;  */
+  /* padding: 10px 20px; */
+  border-radius: 8px;
+  /* margin: 0 2px 0 0; */
+  font-family: montserrat;
+}
+
+.material-icons{
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+.style_box{
+  border-right: 1px solid #707070;;
+  margin-right: 13px;
+  padding-right: 13px;
+}
+
+.fa-angle-down{
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+
+.main-menu {
+  background-color: #1a1a1a;
+  padding: 15px 0;
+}
+
+
+.page-logo {
+  /* font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  */
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat";
+  left: 0;
+}
+
+.sub-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sub-menu a {
+  /*
+  text-decoration: none;
+  font-size: 14px;
+  position: relative; */
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+
+.sub-menu a::after {
+  font-size: 10px;
+}
+
+.sub-menu a.active {
+  /* color: #f36; */
+  border-bottom: 2px solid #f36;
+  padding-bottom: 2px;
+  width: 80px;
+}
+
+.bar-icons {
+  display: flex;
+  align-items: center;
+  /* gap: 15px; */
+  margin-right: 10px;
+}
+
+.bar-icons i {
+  color: white;
+  font-size: 18px;
+  cursor: pointer; 
+}
