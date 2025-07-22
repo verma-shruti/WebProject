@@ -9,9 +9,7 @@ body {
   /* background-color: #111;  */
   font-family: "Segoe UI", sans-serif;
   color: white;
-  background-image: url(images/head.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  
 }
 
 .outer-box {
@@ -70,6 +68,12 @@ body {
   font-size: 15px;
 }
 
+.main_home_section{
+  background-image: url(images/head.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: max-content;
+}
 
 .main-menu {
   /* background-color: #1a1a1a; */
@@ -150,7 +154,7 @@ body {
 }
 
 .home_section {
-  height: 100vh;
+  height: max-content;
   position: relative;
 }
 
@@ -279,4 +283,141 @@ h1 {
   border: 1px solid #3a3aff;
   background-color: white;
   color: #3a3aff;
+}
+
+
+
+
+
+.about_section{
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.containerss {
+  display: flex;
+  gap: 20px;
+}
+
+.main {
+  flex: 2;
+}
+
+.featured-post {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.featured-post img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.featured-text h2 {
+  margin: 10px 0;
+}
+
+.featured-text p {
+  color: #555;
+}
+
+.authorss {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.authorss img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.post-list {
+  color: black;
+}
+
+.post-list .post {
+  background: #fff;
+  display: flex;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.post img {
+  width: 120px;
+  border-radius: 4px;
+}
+
+.post-content {
+  margin-left: 10px;
+}
+
+.post-content h3 {
+  margin: 0;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: white;
+}
+
+.search-box {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 24px 24px 0 24px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  background: #333;
+  color: #fff;
+  border: none;
+}
+
+.categories{
+  color: blue;
+}
+
+.categories ul {
+  list-style: none;
+  padding-left: 0;
+  color: black;
+}
+
+.categories li {
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.subscribe input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.subscribe button {
+  width: 100%;
+  padding: 10px;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+}
+
+.social-links a {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #333;
 }
