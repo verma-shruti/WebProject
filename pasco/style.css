@@ -161,7 +161,7 @@ body {
 .position_box {
   height: 100%;
   width: 100%;
-  padding: 210px 40px;
+  padding: 210px 40px 100px;
   text-align: center;
 }
 
@@ -295,25 +295,25 @@ h1 {
   padding: 20px;
 }
 
-.containerss {
+.lifestyle_box {
   display: flex;
   gap: 20px;
 }
 
-.main {
+.content_part {
   flex: 2;
 }
 
 .featured-post {
   background: #fff;
-  padding: 20px;
+  /* padding: 20px; */
   margin-bottom: 20px;
   color: black;
 }
 
 .featured-post img {
   width: 100%;
-  border-radius: 6px;
+  /* border-radius: 6px; */
 }
 
 .featured-text h2 {
@@ -324,13 +324,13 @@ h1 {
   color: #555;
 }
 
-.authorss {
+.public_writers{
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
 
-.authorss img {
+.public_writers img {
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -341,7 +341,7 @@ h1 {
   color: black;
 }
 
-.post-list .post {
+.post-list .post_cover {
   background: #fff;
   display: flex;
   margin-bottom: 15px;
@@ -349,7 +349,7 @@ h1 {
   border-radius: 6px;
 }
 
-.post img {
+.post_cover img {
   width: 120px;
   border-radius: 4px;
 }
@@ -362,28 +362,65 @@ h1 {
   margin: 0;
 }
 
+
+.card-row {
+  display: flex;
+  gap: 20px;
+}
+
+.card-row .blog-card {
+  flex: 1;
+  background-color: white;
+}
+
+.small{
+  margin-bottom: 15px;
+}
+
+.more_button{
+  text-align: right;
+  font-size: 14px;
+  color: blue;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+
+
 .sidebar {
   flex: 1;
   background-color: white;
 }
 
 .search-box {
+  width: 100%;
+  max-width: max-content;
+  background-color: #f5f5f5;
   display: flex;
-  margin-bottom: 20px;
-  padding: 24px 24px 0 24px;
+  align-items: center;
+  border-radius: 60px;
+  /* padding: 10px 20px; */
+  margin: 12px 12px 12px 50px;
 }
 
 .search-box input {
+  background: transparent;
   flex: 1;
-  padding: 8px;
-  border-radius: 20px;
+  border: 0;
+  outline: none;
+  padding: 14px 20px;
+  font-size: 15px; 
 }
 
 .search-box button {
-  padding: 8px 12px;
-  background: #333;
+  border: 0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #ff4081;
+  cursor: pointer;
   color: #fff;
-  border: none;
+  margin: 6px;
 }
 
 .categories{
@@ -421,3 +458,9 @@ h1 {
   font-size: 18px;
   color: #333;
 }
+
+
+
+
+
+
