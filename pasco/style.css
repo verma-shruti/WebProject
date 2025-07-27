@@ -298,7 +298,7 @@ h1 {
 
 .featured-post {
   background: #fff;
-  /* padding: 20px; */
+  padding-bottom: 20px;
   margin-bottom: 20px;
   color: black;
 }
@@ -314,6 +314,13 @@ h1 {
 
 .featured-text p {
   color: #555;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.review-date a{
+  text-decoration: none;
+  color: black;
 }
 
 .on-post-text{
@@ -324,6 +331,14 @@ h1 {
   position: absolute;
   bottom: 8px;
   left: 12px;
+  font-size: 12px;
+  color: white;
+}
+
+.post-icon{
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
   font-size: 20px;
   color: white;
 }
@@ -389,7 +404,9 @@ h1 {
   margin-top: 30px;
 }
 
-
+.slidebar-heading h4 {
+    color: blue;
+}
 
 .sidebar {
   flex: 1;
@@ -428,7 +445,7 @@ h1 {
 }
 
 .categories{
-  color: blue;
+  padding: 0 20px;
 }
 
 .categories ul {
@@ -441,6 +458,10 @@ h1 {
   padding: 6px 0;
   border-bottom: 1px solid #ddd;
   
+}
+
+.subscribe{
+  padding: 5px 20px 0;
 }
 
 .subscribe input {
@@ -526,7 +547,7 @@ h1 {
 
 /* Tab section */
 .post-tabs {
-  padding: 10px;
+  padding: 10px 20px ;
   margin-bottom: 20px;
 }
 
@@ -576,12 +597,15 @@ h1 {
   color: #333;
 }
 
+.tag-block{
+  padding: 0 20px;
+}
+
 /* Tags section */
 .tag-block h4 {
   margin-bottom: 10px;
   font-size: 14px;
   text-transform: uppercase;
-  color: #444;
 }
 
 .tag-list {
